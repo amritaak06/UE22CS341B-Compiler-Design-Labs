@@ -73,9 +73,16 @@ F : '(' E ')' 	{
 
 
 /* error handling function */
+/* error handling function */
 void yyerror(char* s)
 {
-	//print appropriate error message
+    fprintf(stderr, "Syntax Error on line %d: %s\n", yylineno, s);
+    extern char* yytext;
+    if (yytext)
+    {
+        fprintf(stderr, "Unexpected token: '%s'\n", yytext);
+    }
+    exit(EXIT_FAILURE); // Terminate parsing on error
 }
 
 
