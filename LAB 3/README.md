@@ -3,8 +3,7 @@
 
 # Lab 3 - Lex & Yacc: Syntax Analysis with Symbol Table 
 This lab demonstrates **syntax analysis** using **Lex (Flex) and Yacc (Bison)**.  
-It parses variable declarations, assignments, expressions, and function definitions,  
-while also integrating a **symbol table** for tracking variables and values.
+It parses variable declarations, assignments, expressions, and function definitions, while also integrating a **symbol table** for tracking variables and values.
 It also has **Error Handling** which detects undeclared variables, type mismatches, and division by zero.
 
 ## Files Included  
