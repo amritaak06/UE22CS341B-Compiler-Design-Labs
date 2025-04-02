@@ -2,7 +2,8 @@
 (Note: The labs were done on a **Windows OS**)
 
 # Lab 4 - Abstract Syntax Tree (AST) using Lex and Yacc    
-This lab demonstrates the implementation of an **Abstract Syntax Tree (AST)** for arithmetic expressions using **Lex** and **Yacc (Bison)**. The lexer identifies tokens, while the parser constructs an AST and displays it.  
+This lab demonstrates the implementation of an **Abstract Syntax Tree (AST)** for arithmetic expressions using **Lex** and **Yacc (Bison)**. The lexer identifies tokens, while the parser constructs an AST and displays it. <br>
+The display_exp_tree fuction in abstract_syntax_tree.c performs pre-order traversal on the AST. One can also use inorder traversal or post order traversal.
 
 ## Files Included  
 - `lexer.l` - Lex file for tokenizing input  
