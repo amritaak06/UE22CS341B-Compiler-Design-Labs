@@ -20,7 +20,7 @@ The display_exp_tree fuction in abstract_syntax_tree.c performs pre-order traver
 ```sh
 flex lexer.l
 bison -d parser.y
-gcc lex.yy.c y.tab.c // if parser.tab files are returned just rename them to y.tab files
+gcc lex.yy.c y.tab.c // if parser.tab files are returned just rename them to y.tab files before running this
 a.exe
 
 # example for testing
