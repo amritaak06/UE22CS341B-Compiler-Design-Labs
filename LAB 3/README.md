@@ -1,18 +1,11 @@
 # Commands to Run This Lab  
 (Note: The labs were done on a **Windows OS**)
 
-# Lab 3 - Lex & Yacc: Syntax Analysis with Symbol Table  
-
-## Overview  
+# Lab 3 - Lex & Yacc: Syntax Analysis with Symbol Table 
 This lab demonstrates **syntax analysis** using **Lex (Flex) and Yacc (Bison)**.  
 It parses variable declarations, assignments, expressions, and function definitions,  
 while also integrating a **symbol table** for tracking variables and values.
-
-## Features  
-- **Lexical Analysis**: Tokenizes identifiers, keywords, operators, and numbers.  
-- **Syntax Analysis**: Parses expressions and statements with Bison.  
-- **Symbol Table Management**: Tracks variable declarations and values, checking for errors.  
-- **Error Handling**: Detects undeclared variables, type mismatches, and division by zero.
+It also has **Error Handling** which detects undeclared variables, type mismatches, and division by zero.
 
 ## Files Included  
 - **`l_lab3.l`** - Lex file for lexical analysis (tokenizing input).  
