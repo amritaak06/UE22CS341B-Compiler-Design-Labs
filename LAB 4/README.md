@@ -1,9 +1,7 @@
 # Commands to Run This Lab  
 (Note: The labs were done on a **Windows OS**)
 
-# Lab 4 - Abstract Syntax Tree (AST) using Lex and Yacc  
-
-## Description  
+# Lab 4 - Abstract Syntax Tree (AST) using Lex and Yacc    
 This lab demonstrates the implementation of an **Abstract Syntax Tree (AST)** for arithmetic expressions using **Lex** and **Yacc (Bison)**. The lexer identifies tokens, while the parser constructs an AST and displays it.  
 
 ## Files Included  
