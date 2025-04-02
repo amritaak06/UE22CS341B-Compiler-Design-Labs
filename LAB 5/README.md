@@ -21,7 +21,7 @@ The `quad_code_gen` function in `quad_generation.c` generates **three-address co
 ```sh
 flex lexer.l
 bison -d parser.y
-gcc lex.yy.c y.tab.c
+gcc lex.yy.c y.tab.c // if parser.tab files are returned just rename them to y.tab files before running this
 a.exe
 
 # example for testing
